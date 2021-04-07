@@ -1,5 +1,5 @@
 <?php
-    require 'header.php'
+    require 'header.php';
 ?>
 <body>
     <div class="container-fluid">
@@ -15,7 +15,7 @@
             </div>
 
             <div class="col-sm-8">
-
+                <a href="onlinevda.php"><button class="btn1">Online VDA</button></a>
             </div>
     
             <div class="col-sm-2"></div>
