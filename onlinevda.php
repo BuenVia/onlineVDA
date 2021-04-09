@@ -5,9 +5,9 @@
 <div class="container-fluid">
     <div class="row">
 
-        <div class="col-sm-4"></div>
+        <div class="col-sm-2"></div>
         
-        <div class="col-sm-4">
+        <div class="col-sm-8">
             <form action="vda-notes.php" method="post" class="vdaform">
                
             <div class="group">
@@ -263,11 +263,11 @@
     </div>
 
 
-                <button class="btn1 btn-sm">Submit</button>
+                <button class="btn1">Submit</button>
             </form>
         </div>
 
-        <div class="col-sm-4"></div>
+        <div class="col-sm-2"></div>
 
     </div>
 </div>

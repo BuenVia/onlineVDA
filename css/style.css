@@ -59,20 +59,29 @@ label {
 .btn1 {
     background-color: var(--bkg-clr-two);
     margin: 10px 0 10px 0;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    outline: none;
 }
 .btn1:hover {
-    background-color: var(--bkg-clr-main);
+    background-color: var(--bkg-clr-one);
     color: var(--txt-clr-one);
     cursor: pointer;
     border: none;
     outline: none;
 }
-/*
+
 .vdaform {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
-}*/
+}
+
+/*FRONT PAGE*/
+.session li {
+    list-style: none;
+    color: var(--txt-clr-main);
+}
 
 /* CONTAINER */
 .group {
@@ -81,6 +90,7 @@ label {
     border: 1px solid var(--bkg-clr-one);
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
 }
 .group h1 {
     color: var(--txt-clr-one);

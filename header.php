@@ -19,14 +19,13 @@
 
     <!--Header/ Navbar-->
     <header>
+    <a href="index.php"><img src="images/new_arc_logo.png" alt="ARC Support Services"></a>
             <div class="header" id="navbar">
                 
                 <a href="javascript:void(0)" class="icon" onclick="navHead()">
                     <i class="fas fa-bars"></i>
                 </a>
-                
-                <img src="images/new_arc_logo.png" alt="ARC Support Services">
-
+            
                 <a href="index.php">Home</a>
                 <a href="javascrtipt:void(0)" id="abtBtn">About</a>
                 <a href="javascrtipt:void(0)" id="conBtn">Contact</a>            

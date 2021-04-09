@@ -6,12 +6,14 @@
         <div class="row">
     
             <div class="col-sm-2 cont">
+                <div class="session">
                 <ul>
                     <li>Bodyshop</li>
                     <li>Bodyshop ID:</li>
                     <li>User</li>
                     <li>User ID</li>
                 </ul>
+                </div>
             </div>
 
             <div class="col-sm-8">
