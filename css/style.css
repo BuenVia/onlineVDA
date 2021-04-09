@@ -12,7 +12,7 @@
 }
 body {
     height: 100vh;
-    overflow: hidden;
+    overflow: scroll;
     background-image: url(../images/background4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,15 +67,24 @@ label {
     border: none;
     outline: none;
 }
-
+/*
 .vdaform {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-}
+}*/
 
-@media screen and (min-width: 1100px) {
-    .vda-group {
-        width: 40%;
-    }    
+/* CONTAINER */
+.group {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid var(--bkg-clr-one);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.group h1 {
+    color: var(--txt-clr-one);
+}
+.group label {
+    color: var(--txt-clr-main);
 }

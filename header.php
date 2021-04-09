@@ -27,7 +27,7 @@
                 
                 <img src="images/new_arc_logo.png" alt="ARC Support Services">
 
-                <a href="javascrtipt:void(0)">Home</a>
+                <a href="index.php">Home</a>
                 <a href="javascrtipt:void(0)" id="abtBtn">About</a>
                 <a href="javascrtipt:void(0)" id="conBtn">Contact</a>            
 
