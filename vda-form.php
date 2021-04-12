@@ -8,6 +8,7 @@
         <div class="col-sm-2"></div>
         
         <div class="col-sm-8">
+
             <form action="vda-photo.php" method="post" class="vdaform">
                
             <div class="group">
@@ -21,11 +22,11 @@
                 </div>
                 <div class="vda-group">
                     <label>Customer Surname.</label>
-                    <input class="form-control" type="text" name="user" id="" placeholder="Surname...">
+                    <input class="form-control" type="text" name="sname" id="" placeholder="Surname...">
                 </div>
                 <div class="vda-group">
                     <label>Customer Firstname.</label>
-                    <input class="form-control" type="text" name="user" id="" placeholder="First Name...">
+                    <input class="form-control" type="text" name="fname" id="" placeholder="First Name...">
                 </div>
             </div>
 
@@ -263,7 +264,7 @@
     </div>
 
 
-                <button class="btn1">Submit</button>
+                <input type="submit">
             </form>
         </div>
 
