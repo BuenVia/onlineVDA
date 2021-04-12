@@ -8,7 +8,7 @@
         <div class="col-sm-2"></div>
         
         <div class="col-sm-8">
-            <form action="vda-notes.php" method="post" class="vdaform">
+            <form action="vda-photo.php" method="post" class="vdaform">
                
             <div class="group">
                 <h1>Customer Details</h1>

@@ -90,10 +90,7 @@ label {
     border: 1px solid var(--bkg-clr-one);
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+    width: 300px;
 }
 .group h1 {
     color: var(--txt-clr-one);
@@ -101,6 +98,8 @@ label {
 .group label {
     color: var(--txt-clr-main);
 }
-.vda-group {
-    width: 30%;
-}
+
+/* PHOTOS */
+ input[type="file"] {
+     color: var(--txt-clr-one);
+ }
