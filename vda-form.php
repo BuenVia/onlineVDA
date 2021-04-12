@@ -103,60 +103,25 @@
         <div class="vda-group">
             <label>ADAS</label>
             <select class="form-control" name="adas" id="">
-                <option value="select" disabled selected>Select</option>
+                <option value="" disabled selected>Select</option>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
             </select>      
         </div>
     </div>
 
-    <div class="group">
-        <h1>Vehicle Condition</h1>
-        <div class="vda-group">
-            <label>Tyres</label>
-            <select class="form-control" name="" id="">
-                <option value="" readonly>Select</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
-            </select>      
-        </div>
-
-        <div class="vda-group">
-            <label>Brakes</label>
-            <select class="form-control" name="" id="">
-                <option value="" readonly>Select</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
-            </select>      
-        </div>
-
-        <div class="vda-group">
-            <label>Steering</label>
-            <select class="form-control" name="" id="">
-                <option value="" readonly>Select</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
-            </select>      
-        </div>
-
-        <div class="vda-group">
-            <label>Pre-Accident</label>
-            <select class="form-control" name="" id="">
-                <option value="" readonly>Select</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
-            </select>      
-        </div>
-    </div>
 
     <div class="group">
         <h1>Vehicle Condition</h1>
         <div class="vda-group">
             <label>Tyres</label>
-            <select class="form-control" name="" id="">
-                <option value="" readonly>Select</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
+            <select class="form-control" name="tyres" id="">
+                <option value="" disabled selected>Select</option>
+                <option value="yes">As New</option>
+                <option value="no">Excellent</option>
+                <option value="yes">Fair</option>
+                <option value="no">Good</option>
+                <option value="yes">Poor</option>
             </select>      
         </div>
 

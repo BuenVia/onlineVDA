@@ -17,7 +17,7 @@
             </div>
 
             <div class="col-sm-8">
-                <a href="vda-form.php"><button class="btn1">Online VDA</button></a>
+                <a href="vda-form-customer.php"><button class="btn1">Online VDA</button></a>
             </div>
     
             <div class="col-sm-2"></div>

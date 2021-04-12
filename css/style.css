@@ -72,30 +72,29 @@ label {
     outline: none;
 }
 
-.vdaform {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/*FRONT PAGE*/
-.session li {
-    list-style: none;
-    color: var(--txt-clr-main);
-}
-
-/* CONTAINER */
 .group {
     margin: 10px;
     padding: 10px;
     border: 1px solid var(--bkg-clr-one);
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 300px;
+    width: 400px;
 }
 .group h1 {
     color: var(--txt-clr-one);
 }
 .group label {
+    color: var(--txt-clr-main);
+}
+.vda-text {
+    resize: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/*FRONT PAGE*/
+.session li {
+    list-style: none;
     color: var(--txt-clr-main);
 }
 
