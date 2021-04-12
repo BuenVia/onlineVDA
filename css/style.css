@@ -90,11 +90,17 @@ label {
     border: 1px solid var(--bkg-clr-one);
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 300px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 .group h1 {
     color: var(--txt-clr-one);
 }
 .group label {
     color: var(--txt-clr-main);
+}
+.vda-group {
+    width: 30%;
 }
