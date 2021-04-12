@@ -8,7 +8,7 @@
         <div class="col-sm-2"></div>
         
         <div class="col-sm-8">
-            <form action="">
+            <form action="vda-overview.php">
                     <div class="row">
                         <h1>Claim Details</h1>
                     </div>
@@ -25,6 +25,7 @@
                         <label>Additional Notes</label>
                         <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
                     </div>
+                    <input type="submit">
                 </div>
             </form>
         </div>

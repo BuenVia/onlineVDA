@@ -8,9 +8,11 @@
 
     <div class="col-sm-8">
 
-        <input name="file[]" type="file" />
-        <button type='button' class="add_more" onclick="addNew()">Add More Files</button>
-        <input type="submit" value="Upload File" id="upload"/>
+    <form enctype="multipart/form-data" action="vda-notes.php" method="post">
+      <input name="file[]" type="file" />
+      <button type='button' class="add_more">Add More Files</button>
+      <input type="submit" value="Upload File" id="upload"/>
+    </form>
     
     </div>
 
