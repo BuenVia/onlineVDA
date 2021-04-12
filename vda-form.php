@@ -35,24 +35,24 @@
                 <h1>Address Details</h1>
                 <div class="vda-group">
                     <label>Street Address</label>
-                    <input class="form-control" type="" name="user" id="" placeholder="Street and Number...">
+                    <input class="form-control" type="text" name="street" id="" placeholder="Street and Number...">
                 </div>
                 <div class="vda-group">
                     <label>Town</label>
-                    <input class="form-control" type="text" name="user" id="" placeholder="Town...">
+                    <input class="form-control" type="text" name="town" id="" placeholder="Town...">
                 </div>
 
                 <div class="vda-group">
                     <label>County</label>
-                    <input class="form-control" type="text" name="user" id="" placeholder="County...">
+                    <input class="form-control" type="text" name="county" id="" placeholder="County...">
                 </div>
                 <div class="vda-group">
                     <label>Postcode</label>
-                    <input class="form-control" type="text" name="user" id="" placeholder="Postcode...">
+                    <input class="form-control" type="text" name="postcode" id="" placeholder="Postcode...">
                 </div>
                 <div class="vda-group">
                     <label>Phone Number</label>
-                    <input class="form-control" type="text" name="user" id="" placeholder="Postcode...">
+                    <input class="form-control" type="text" name="phone" id="" placeholder="Phone...">
                 </div>
             </div>
             
@@ -60,19 +60,19 @@
         <h1>Claim Details</h1>
         <div class="vda-group">
             <label>Claim No.</label>
-            <input class="form-control" type="text" name="user" id="" placeholder="Claim...">
+            <input class="form-control" type="text" name="claim" id="" placeholder="Claim...">
         </div>
         <div class="vda-group">
             <label>Policy Number</label>
-            <input class="form-control" type="text" name="date" id="" placeholder="Policy">
+            <input class="form-control" type="text" name="policy" id="" placeholder="Policy">
         </div>
         <div class="vda-group">
             <label>Vehicle Location</label>
-            <input class="form-control" type="text" name="user" id="" placeholder="Location...">
+            <input class="form-control" type="text" name="loc" id="" placeholder="Location...">
         </div>
         <div class="vda-group">
             <label>Date of Loss</label>
-            <input class="form-control" type="date" name="date" id="">
+            <input class="form-control" type="date" name="dateLoss" id="">
         </div>
     </div>
 
@@ -80,30 +80,30 @@
         <h1>Vehicle Details</h1>
         <div class="vda-group">
             <label>Registration Number</label>
-            <input class="form-control" type="text" name="" id="">
+            <input class="form-control" type="text" name="reg" placeholder="Registration">
         </div>
         <div class="vda-group">
             <label>Make</label>
-            <input class="form-control" type="text" name="" id=""> 
+            <input class="form-control" type="text" name="make" placeholder="Make"> 
         </div>
         <div class="vda-group">
             <label>Model</label>
-            <input class="form-control" type="text" name="" id=""> 
+            <input class="form-control" type="text" name="model" placeholder="Model"> 
         </div>
         <div class="vda-group">
             <label>Mileage</label>
-            <input class="form-control" type="text" name="" id=""> 
+            <input class="form-control" type="text" name="miles" placeholder="Mileage"> 
         </div>
 
         <div class="vda-group">
             <label>VIN</label>
-            <input class="form-control" type="text" name="" id=""> 
+            <input class="form-control" type="text" name="vin" placeholder="VIN"> 
         </div>
 
         <div class="vda-group">
             <label>ADAS</label>
-            <select class="form-control" name="" id="">
-                <option value="" readonly>Select</option>
+            <select class="form-control" name="adas" id="">
+                <option value="select" disabled selected>Select</option>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
             </select>      
