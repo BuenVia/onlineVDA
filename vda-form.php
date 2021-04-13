@@ -193,7 +193,7 @@
         <h1>Tyre Condition</h1>
         <div class="vda-group">
             <label>NSF Tyre</label>
-            <select class="form-control" name="" id="">
+            <select class="form-control" name="nsf" id="">
                 <option value="" readonly>Select</option>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
@@ -202,7 +202,7 @@
 
         <div class="vda-group">
             <label>OSF Tyre</label>
-            <select class="form-control" name="" id="">
+            <select class="form-control" name="osf" id="">
                 <option value="" readonly>Select</option>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
@@ -211,7 +211,7 @@
 
         <div class="vda-group">
             <label>NSR Tyre</label>
-            <select class="form-control" name="" id="">
+            <select class="form-control" name="nsr" id="">
                 <option value="" readonly>Select</option>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
@@ -220,7 +220,7 @@
 
         <div class="vda-group">
             <label>OSR Tyre</label>
-            <select class="form-control" name="" id="">
+            <select class="form-control" name="osr" id="">
                 <option value="" readonly>Select</option>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
