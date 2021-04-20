@@ -15,7 +15,7 @@
                     <h1>Vehicle Condition</h1>
                     <div class="vda-group">
                         <label>Tyres</label>
-                        <select class="form-control" name="tyres" id="">
+                        <select class="form-select form-select-sm" name="tyres" id="">
                             <option value="" disabled selected>Select</option>
                             <option value="yes">As New</option>
                             <option value="no">Excellent</option>
@@ -27,7 +27,7 @@
 
                     <div class="vda-group">
                         <label>Brakes</label>
-                        <select class="form-control" name="" id="">
+                        <select class="form-select form-select-sm" name="" id="">
                             <option value="" readonly>Select</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
@@ -36,7 +36,7 @@
 
                     <div class="vda-group">
                         <label>Steering</label>
-                        <select class="form-control" name="" id="">
+                        <select class="form-select form-select-sm" name="" id="">
                             <option value="" readonly>Select</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
@@ -45,7 +45,7 @@
 
                     <div class="vda-group">
                         <label>Pre-Accident</label>
-                        <select class="form-control" name="" id="">
+                        <select class="form-select form-select-sm" name="" id="">
                             <option value="" readonly>Select</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
@@ -54,7 +54,7 @@
 
                     <div class="vda-group">
                         <label>Paint</label>
-                        <select class="form-control" name="" id="">
+                        <select class="form-select form-select-sm" name="" id="">
                             <option value="" readonly>Select</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
@@ -63,7 +63,7 @@
 
                     <div class="vda-group">
                         <label>Colour</label>
-                        <select class="form-control" name="" id="">
+                        <select class="form-select form-select-sm" name="" id="">
                             <option value="" readonly>Select</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
@@ -72,7 +72,7 @@
 
                     <div class="vda-group">
                         <label>Body Style</label>
-                        <select class="form-control" name="" id="">
+                        <select class="form-select form-select-sm" name="" id="">
                             <option value="" readonly>Select</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
@@ -81,7 +81,7 @@
 
                     <div class="vda-group">
                         <label>Vehicle Status</label>
-                        <select class="form-control" name="" id="">
+                        <select class="form-select form-select-sm" name="" id="">
                             <option value="" readonly>Select</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
