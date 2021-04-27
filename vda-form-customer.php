@@ -9,7 +9,7 @@
         
         <div class="col-sm-8">
 
-            <form action="vda-form-claim.php" method="post" class="vdaform">
+            <form action="includes/vda.inc.php" method="post" class="vdaform">
                
             <div class="group">
                 <h1>Customer Details</h1>
@@ -53,7 +53,7 @@
                     <input class="form-control" type="text" name="phone" id="" placeholder="Phone...">
                 </div>
 
-                <input type="submit" class="btn1">
+                <input type="submit" class="btn1" name="customer-submit">
 
             </div>
 
