@@ -4,7 +4,7 @@ if (isset($_POST['customer-submit'])) {
 
     require 'dbh.inc.php';
 
-
+    $date = date("Y-m-d H:i:s");
 
     $suffix = $_POST['suffix'];
     $sname = $_POST['sname'];
@@ -16,19 +16,19 @@ if (isset($_POST['customer-submit'])) {
     $postcode = $_POST['postcode'];
     $phone = $_POST['phone'];
     
-    if (!empty($sname)) {
-        header("Location: ../index.html?error=emptyfields&name-".$sname."&cname=".$fname);
+    if (empty($sname)) {
+        header("Location: ../vda-form-customer.php?error=emptyfields&name-".$sname."&fname=".$fname);
         exit();
     }
     else {
-        $sql = "SELECT dateStart FROM onlinevda WHERE date=?";
+        $sql = "SELECT date FROM vdaform WHERE date=?";
         $stmt = mysqli_stmt_init($conn);
         if (!mysqli_stmt_prepare($stmt, $sql)) {
             header("Location: ../index.html?error=sqlerror");
             exit();
         }
         else {
-                $sql = "INSERT INTO onlinevda (date,) VALUES (?)";
+                $sql = "INSERT INTO vdaform (date) VALUES (?)";
                 $stmt = mysqli_stmt_init($conn);
                 if (!mysqli_stmt_prepare($stmt, $sql)) {
                     header("Location: ../index.html?error=sqlerror1");

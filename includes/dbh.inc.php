@@ -1,9 +1,9 @@
 <?php
 
-$servername = "buenvia.com";
-$dBUsername = "buenviadb";
-$dBPassword = "buenvia_11";
-$dBName = "buenvia";
+$servername = "localhost";
+$dBUsername = "root";
+$dBPassword = "";
+$dBName = "onlinevda";
 
 $conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
 
