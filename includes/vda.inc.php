@@ -1,5 +1,6 @@
 <?php
 
+// CUSTOMER DETAILS
 if (isset($_POST['customer-submit'])) {
 
     require 'dbh.inc.php';
@@ -16,7 +17,7 @@ if (isset($_POST['customer-submit'])) {
     $postcode = $_POST['postcode'];
     $phone = $_POST['phone'];
     
-    if (empty($sname)) {
+    if (empty($sname) || empty($suffix) || empty($fname) || empty($street) || empty($town) || empty($county) || empty($postcode) || empty($phone)) {
         header("Location: ../vda-form-customer.php?error=emptyfields");
         exit();
     }
@@ -28,14 +29,14 @@ if (isset($_POST['customer-submit'])) {
             exit();
         }
         else {
-                $sql = "INSERT INTO vdaform (date) VALUES (?)";
+                $sql = "INSERT INTO vdaform (date, suffix, surname, fname, street, town, county, postcode, phone) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
                 $stmt = mysqli_stmt_init($conn);
                 if (!mysqli_stmt_prepare($stmt, $sql)) {
                     header("Location: ../index.html?error=sqlerror1");
                     exit();
                 }
                 else {
-                    mysqli_stmt_bind_param($stmt, "s", $date);
+                    mysqli_stmt_bind_param($stmt, "sssssssss", $date, $suffix, $sname, $fname, $street, $town, $county, $postcode, $phone);
                     mysqli_stmt_execute($stmt);
                     header("Location: ../vda-form-claim.php");
                     exit();
@@ -44,9 +45,9 @@ if (isset($_POST['customer-submit'])) {
     }
     mysqli_stmt_close($stmt);
     mysqli_close($conn);
-
 }
 
+// FALLBACK
 else {
     echo "false";
 }
