@@ -23,6 +23,13 @@
             <div class="col-sm-2"></div>
     
             </div>
+
+
+            <div class="row" style="color: #fff">
+                <p>TEST</p>
+            </div>
+
+
     </div>
 
 <?php
