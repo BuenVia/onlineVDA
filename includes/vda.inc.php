@@ -17,7 +17,7 @@ if (isset($_POST['customer-submit'])) {
     $phone = $_POST['phone'];
     
     if (empty($sname)) {
-        header("Location: ../vda-form-customer.php?error=emptyfields&name-".$sname."&fname=".$fname);
+        header("Location: ../vda-form-customer.php?error=emptyfields");
         exit();
     }
     else {
