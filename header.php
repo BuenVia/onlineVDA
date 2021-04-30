@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,18 +24,24 @@
 
     <!--Header/ Navbar-->
     <header>
-    <a href="index.php"><img src="images/new_arc_logo.png" alt="ARC Support Services"></a>
-            <div class="header" id="navbar">
-                
-                <a href="javascript:void(0)" class="icon" onclick="navHead()">
-                    <i class="fas fa-bars"></i>
-                </a>
-            
-                <a href="index.php">Home</a>
-                <a href="javascrtipt:void(0)" id="abtBtn">About</a>
-                <a href="javascrtipt:void(0)" id="conBtn">Contact</a>            
+    <div class="column-sm" style="text-align:centre">
+            <a href="index.php"><img src="../images/new_arc_logo.png" style="height:80px"></a>
+        </div>
 
-            </div>
+        <div class="column-sm" style="text-align:right">
+        <?php
+            if (isset($_SESSION['id'])) {
+
+                echo '<p style="color:white">You are logged in as <a style="color:white"><b><u>'.$_SESSION['id'].'</u></b></a></p>
+                       <p><a href="includes/logoutus.inc.php"><button class="btn1"><b><u>Logout</b></u></button></a></p>';
+            }
+            else {
+                echo '<p style="color:white"><b>You are <u>LOGGED OUT</u></b></p>';
+            }
+        ?>
+
+    </div>
+
     </header>
 
 

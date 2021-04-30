@@ -8,7 +8,7 @@
                 <div class="col-sm-4"></div>
                 
                 <div class="col-sm-4">
-                    <form action="login.php" method="">
+                    <form action="includes/loginus.inc.php" method="POST">
                        
                     <div class="form-group">
                             <label for="name">Username</label>
@@ -19,7 +19,7 @@
                             <input class="form-control" type="password" name="psw" id="" placeholder="Password...">
                         </div>
 
-                        <button class="btn1 btn-sm">Submit</button>
+                        <input type="submit" name="user-login-submit"/>
                     </form>
                 </div>
 
